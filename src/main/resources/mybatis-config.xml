@@ -5,10 +5,7 @@
 <configuration>
 	<properties resource="application.properties"></properties>
 	<typeAliases>
-		<package name="kr.or.yi.mybatis_c3p0_lch.dto"/>
-		<!-- <typeAlias type="kr.or.yi.mybatis_c3p0_lch.dto.Title" alias="title" />
-		<typeAlias type="kr.or.yi.mybatis_c3p0_lch.dto.Department" alias="title" />
-		<typeAlias type="kr.or.yi.mybatis_c3p0_lch.dto.Employee" alias="title" /> -->
+		<package name="kr.or.yi.mybatis_c3p0_practice.dto"/>
 	</typeAliases>
 	<environments default="development">
 		<environment id="development">
